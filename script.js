@@ -31,3 +31,20 @@ navItems.forEach((item) => {
         full.style.top = '-100%';
     });
 })
+
+const crsr = document.querySelector(".cursor")
+
+
+window.addEventListener("mousemove", function (dets) {
+
+    // crsr.style.top = dets.y - 12 + "px"
+    // crsr.style.left = dets.x - 12 + "px"
+    // crsr_blur.style.top = dets.y - 200 + "px"
+    // crsr_blur.style.left = dets.x - 200 + "px"
+
+    crsr.animate({
+        top: `${dets.y}px`,
+        left: `${dets.x}px`,
+    }, { duration: 1000, fill: "forwards" })
+
+})

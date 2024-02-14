@@ -39,6 +39,21 @@ body {
         background-color: var(--bgBlack);
         scroll-behavior: smooth;
     }
+        .cursor{
+            display: none;
+        }
+}
+
+.cursor {
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    background-color: var(--cyan);
+    z-index: 10;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #main {
@@ -310,7 +325,6 @@ nav {
     height: 100vh;
     margin: 0;
     padding: 0;
-    flex-wrap: nowrap;
 }
 
 .line {
