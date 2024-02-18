@@ -43,7 +43,7 @@ body {
             display: none;
         }
 }
-
+/* 
 .cursor {
     height: 25px;
     width: 25px;
@@ -54,7 +54,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
 #main {
     position: relative;
